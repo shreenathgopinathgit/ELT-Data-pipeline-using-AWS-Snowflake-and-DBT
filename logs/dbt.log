@@ -1,0 +1,70 @@
+[0m11:21:46.368676 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:21:46.388887 | d38e199e-8f0f-43e8-bc1e-03647d9c03df ==============================
+[0m11:21:46.388887 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:21:46.389440 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/shreenath/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:02.607159 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/dbt/include/starter_project
+[0m11:22:02.620403 [info ] [MainThread]: 
+Your new dbt project "logistic_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:22:02.621136 [info ] [MainThread]: Setting up your profile.
+[0m11:24:23.769431 [info ] [MainThread]: Profile logistic_dbt written to /Users/shreenath/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:24:23.778382 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 157.42674, "process_in_blocks": "0", "process_kernel_time": 0.260749, "process_mem_max_rss": "178487296", "process_out_blocks": "0", "process_user_time": 0.972642}
+[0m11:24:23.779291 [debug] [MainThread]: Command `dbt init` succeeded at 11:24:23.779076 after 157.43 seconds
+[0m11:24:23.780594 [debug] [MainThread]: Flushing usage events
+[0m11:32:16.080209 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:32:16.101275 | 8cd0b8a5-5343-4d58-ab67-b99b73e9eb3b ==============================
+[0m11:32:16.101275 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:32:16.101799 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/shreenath/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m11:32:16.102089 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Volumes/personal files/brojec/logistic broject/logistic_dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:32:16.103445 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04451875, "process_in_blocks": "0", "process_kernel_time": 0.103132, "process_mem_max_rss": "100597760", "process_out_blocks": "0", "process_user_time": 0.560405}
+[0m11:32:16.103705 [debug] [MainThread]: Command `dbt run` failed at 11:32:16.103655 after 0.04 seconds
+[0m11:32:16.103876 [debug] [MainThread]: Flushing usage events
+[0m11:33:15.966297 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:33:15.979933 | 44af3b3d-b4c5-4e69-a402-6619e9cfd6f3 ==============================
+[0m11:33:15.979933 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:33:15.980445 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/shreenath/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m11:33:15.980753 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Volumes/personal files/brojec/logistic broject/logistic_dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:33:15.982123 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.036751043, "process_in_blocks": "0", "process_kernel_time": 0.106637, "process_mem_max_rss": "101548032", "process_out_blocks": "0", "process_user_time": 0.559085}
+[0m11:33:15.982390 [debug] [MainThread]: Command `dbt run` failed at 11:33:15.982333 after 0.04 seconds
+[0m11:33:15.982575 [debug] [MainThread]: Flushing usage events
+[0m11:33:48.266582 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:33:48.282350 | d14c3765-e12d-4d92-b7a1-5b926fa6da69 ==============================
+[0m11:33:48.282350 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:33:48.282949 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/shreenath/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:33:48.283255 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Volumes/personal files/brojec/logistic broject/logistic_dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:33:48.284278 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03969879, "process_in_blocks": "0", "process_kernel_time": 0.105215, "process_mem_max_rss": "99860480", "process_out_blocks": "0", "process_user_time": 0.562714}
+[0m11:33:48.284511 [debug] [MainThread]: Command `dbt run` failed at 11:33:48.284460 after 0.04 seconds
+[0m11:33:48.284685 [debug] [MainThread]: Flushing usage events

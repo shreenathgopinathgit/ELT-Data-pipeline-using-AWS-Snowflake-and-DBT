@@ -1,0 +1,12 @@
+version: 2
+sources:
+  - name: logisticdata
+    schema: RAW
+    tables:
+      - name: supplychain_dataset
+        identifier: DATACOSUPPLYCHAINDATASET_UTF8
+      - name: desc_supplechain
+        identifier: DESCRIPTIONDATACOSUPPLYCHAIN
+      - name: token_logs
+        identifier: TOKENIZED_ACCESS_LOGS
+        

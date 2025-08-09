@@ -1,0 +1,37 @@
+version: 2
+
+models:
+
+  - name: dim_orders
+    description: "Cleaned and standardized order-level data"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: product_card_id
+        tests:
+          - not_null
+      - name: order_date
+        tests:
+          - not_null
+      - name: delivery_status
+        tests:
+          - not_null
+  - name: dim_customers
+    description: "cleaned customer dimenstion data"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+  - name: dim_products
+    description: "Cleaned product dimension data"
+    columns:
+      - name: product_card_id
+        tests:
+          - not_null
+          - unique
+    
